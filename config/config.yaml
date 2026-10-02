@@ -1,0 +1,16 @@
+# Runtime parameters — loaded separately from config/agent.yaml and passed to the
+# graph as Graph(config=...). The static manifest must not carry these.
+max_retry: 3
+timeout_seconds: 30
+security:
+  s3_gate_enabled: true
+log_source_default: generic
+max_field_chars: 2000
+max_events: 100000
+max_tool_calls: 10
+policy_min_confidence: 0.5
+policy_enabled_categories: []
+policy_rules: []
+severity_48h_bands:
+- critical
+alert_format: generic

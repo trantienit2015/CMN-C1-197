@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.installed.cfg
+*.egg
+.venv/
+venv/
+
+# Testing
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Env
+.env
+*.env.local
+
+# Pre-flight / review scratch artifacts (not part of the template)
+temp/
+
+# Local reference files — kept out of version control.
+CLAUDE.md
+STG_RUNBOOK.md
+DEV_CREDENTIAL_PROVISIONING.md
+MANIFEST.md
+security_rules/
+ci_stubs/
